@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <style>
+        .main{
+            margin: 0px 0px;
+            padding: 0px auto;
+            background: skyblue;
+
+        }
+        .list{
+            font-size: 1rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: justify;
+            /* margin-left: 40px; */
+            color: green;
+            
+        }
+        li{
+            height: auto;
+            width: 100%;
+            text-align: justify;
+            /* line-height: 5px; */
+            gap: 10px;
+            /* border: 2px solid black; */
+            color: white;
+
+            /* border-radius:15% ; */
+
+        }
+       
+        header{
+            /* border: 2px solid black; */
+            font-size: 6vw;
+            font-weight: 700;
+            text-align: center;
+        }
+        .box{
+         display: flex;            
+        }
+        .rotate{
+            border-radius: 68%;
+            width: 7vw;
+            height: 7vw;
+            background-color: transparent;
+            animation: do .8s infinite linear;
+            animation-fill-mode: forwards;
+        }
+        /* .rotate:hover{
+            animation: do .8s infinite linear;
+            animation-fill-mode: forwards;
+        } */
+        @keyframes do{
+            from{}
+            to{transform: rotate(360deg);}
+        }
+        footer{padding: 20px; font-size: 5vw; color: white; background: black; text-align: center;}
+    /* .video{
+        padding:40px;
+      
+    } */
+
+    </style>
+</head>
+<body>
+    <div class="main">
+         <header><span>
+          <img class="rotate" src="./img/download.jfif" alt="">
+      </span> HLM Media House Pvt. Ltd. </header>
+         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./login.html">login</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./Calculator05.html">Calculator</a></li>
+                      <li><a class="dropdown-item" href="countdown.html">Countdown</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="new.html">Guess Game</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <div>
+            
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://hlmmediahouseindia.com/assets/img/gandhi%20ji%20seva.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://hlmmediahouseindia.com/assets/img/corporation.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://hlmmediahouseindia.com/assets/img/meadia.jfif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+          </div>
+         <div class="video">
+            <div class="ratio ratio-16x9">
+                <!-- <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+              </div> -->
+          
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/EGci0D1JL4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+              <div class="col my-3 core md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://lh5.googleusercontent.com/p/AF1QipOiVui8eU6V6grzO48Jhr_kxjY6zBvO74dRQX7R=w548-h318-n-k-no" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Shanghai</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col my-3 core md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://lh5.googleusercontent.com/p/AF1QipNQnNctXmdBNQGAx0yBIuiCENQyi7aHtFU4fjBz=w548-h318-n-k-no" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Hong-Kong</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col my-3 core md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://lh5.googleusercontent.com/p/AF1QipP3piCIyHY63W_YmsqZVnNSuLW0NVGANvLLQkKc=w548-h318-n-k-no" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Delhi</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col my-3 core md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.swantour.com/blogs/wp-content/uploads/2019/02/Agonda-Beach-585x390.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Goa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col my-3 core md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.verywellhealth.com/thmb/7R4d3vLIcvyQMuhID1wSbfkjP4Q=/2121x1414/filters:fill(87E3EF,1)/skyscrapers-of-los-angeles-skyline-architecture-urban-cityscape--478821794-5b5c725446e0fb002c6119ca.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Los Angeles</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col my-3 core md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.verywellhealth.com/thmb/7R4d3vLIcvyQMuhID1wSbfkjP4Q=/2121x1414/filters:fill(87E3EF,1)/skyscrapers-of-los-angeles-skyline-architecture-urban-cityscape--478821794-5b5c725446e0fb002c6119ca.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Los Angeles</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col my-3 core md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.verywellhealth.com/thmb/7R4d3vLIcvyQMuhID1wSbfkjP4Q=/2121x1414/filters:fill(87E3EF,1)/skyscrapers-of-los-angeles-skyline-architecture-urban-cityscape--478821794-5b5c725446e0fb002c6119ca.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Los Angeles</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div> -->
+              <div class="col my-3 core md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/12/d3/17/bandra-worli-sea-link.jpg?w=600&h=400&s=1" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mumbai</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                </div>
+                </div>
+            <!-- <ul>List of Employees</ul> -->
+           <div class="box">
+            <div>
+                <!-- <ul class="list">
+                    <li>Some quick example text to build on the card</li>
+                    <li>Some quick example text to build on the card</li>
+                    <li>Some quick example text to build on the card</li>
+                    <li>Some quick example text to build on the card</li>
+                    <li>Some quick example text to build on the card</li>
+                    <li>Some quick example text to build on the card</li>
+                  </ul>
+            </div> -->
+           
+           </div>
+              
+         </div>
+      
+        </div>
+        <footer>
+          @Copyright
+           </footer>
+    
+</body>
+</html>

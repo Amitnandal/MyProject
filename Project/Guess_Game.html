@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <style>
+        
+        .main{
+            margin: 0px 0px;
+            padding: 0px auto;
+            background: skyblue;
+          height: 1000px;}
+
+        header{
+            /* border: 2px solid black; */
+            font-size: 6vw;
+            font-weight: 700;
+            text-align: center;
+        }
+        .rotate{
+            border-radius: 68%;
+            width: 7vw;
+            height: 7vw;
+            background-color: transparent;
+            animation: do .8s infinite linear;
+            animation-fill-mode: forwards;
+        }
+        @keyframes do{
+            from{}
+            to{transform: rotate(360deg);}
+        }
+        .btn-grad {
+            background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+        .box {
+            display: grid;
+            align-items: center;
+            margin: 0 auto;
+            width: 500px;
+            height: 500px;
+            border: 4px solid rgb(29, 87, 167);
+            background: white;
+            box-sizing: border-box;
+
+        }
+
+        .div {
+            background: #52abf2;
+            border: 2px solid black;
+            margin: 20px;
+            /* width: 500px;
+            height: 500px;  */
+            width: 450px;
+            height: 450px;
+            box-sizing: border-box;
+        }
+
+        .h1 {
+            background: pink;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: forestgreen;
+            text-align: center;
+            height: 50px;
+            font-size: 30px;
+
+        }
+
+        .bob {
+            margin-left: 50px;
+            font-size: 32px;
+            color: rgb(61, 61, 198);
+            line-height: 2;
+        }
+
+        img {
+            border: 1px;
+            width: 40px;
+            height: 40px;
+            margin-top: 12px;
+            margin-left: 36px;
+        }
+        .b{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .abc {
+            max-width: 180px;
+            height: 43px;
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 10px;
+    border: 3px solid gray;
+    border-radius: 7px;
+
+        }
+                 
+    </style>
+</head>
+<body>
+    <div class="main">
+      <header><span>
+         <img class="rotate" src="./img/download.jfif" alt="">
+           </span> HLM Media House Pvt. Ltd. </header>
+           <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+           
+         <a class="navbar-brand" href="#">Navbar</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="MyProjest.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="./login.html">login</a>
+             </li>
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Dropdown
+               </a>
+               <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="./Calculator05.html">Calculator</a></li>
+                 <li><a class="dropdown-item" href="countdown.html">Countdown</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                 <li><a class="dropdown-item" href="game.html">Guess Game</a></li>
+               </ul>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+             </li>
+           </ul>
+           <form class="d-flex" role="search">
+             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success" type="submit">Search</button>
+           </form>
+         </div>
+       </div>
+     </nav>
+     
+    <div class="box">
+        <div class="div">
+            <h1 class="h1">Welcome</h1>
+            <div class="bob">
+                <div style="display:flex ;"> <label for="">Username :-</label> 
+                    <input type="text" name="userid" style=" height: 30px;
+                    width: 201px;
+                    margin-top: 20px;
+                    margin-left: 10px;" autofocus required>
+                   </div>
+                   <div style="display:flex ;"> <label for="">Passward :- </label> 
+                <input type="password" style="height: 30px;
+                width: 201px;
+                margin-top: 20px;
+                margin-left: 20px;" autofocus required>
+                </div>
+                  <div>
+                    <div>Now Guess the Number
+
+                        <!-- <img src="https://ps.w.org/wp-reset/assets/icon-128x128.png?rev=1906468" onclick="js()" alt=""> -->
+
+                    </div>
+
+                    <div style="display: flex;">
+                        <div id="case"
+                            style="letter-spacing: 10px; font-weight: 600; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+                        </div>
+                        <!-- <div><img src="https://ps.w.org/wp-reset/assets/icon-128x128.png?rev=1906468" onclick="js()" alt=""></div> -->
+
+                    </div>
+
+                    <!-- <input type="text" class="abc" id="aa" maxlength="4"> -->
+                    <!-- <input type="text" class="abc" id="ss" maxlength="1">
+                    <input type="text" class="abc" id="xx" maxlength="1">
+                    <input type="text" class="abc" id="zz" maxlength="1"> -->
+                    <!-- <input type="button" onclick="otp()" value="Submit"> -->
+                    <!-- <button  onclick="otp()">Submit</button> -->
+                    
+
+                    <div class="b">
+                    <input type="text" class="abc" id="aa" maxlength="4">
+                    <button class="btn btn-success" onclick="otp()">Submit </button>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var b2;
+    function js() {
+        var a = Math.random() + 1;
+        b2 = parseInt(a * 4321);
+        // console.log(b);
+        document.getElementById('case').innerHTML = b2;
+
+    }
+    // js();
+
+    var e;
+    function otp() {
+
+        k = document.getElementById('aa')
+        // p = document.getElementById('ss')
+        // c = document.getElementById('xx')
+        // d = document.getElementById('zz')
+        e = k.value;
+
+        if (e == b2) {
+            alert("You won");
+            console.log(e);
+        }
+        else {
+            alert("Try again");
+        }
+
+
+    }
+    // otp()
+
+    
+</script>
+</html>
